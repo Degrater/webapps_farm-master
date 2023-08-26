@@ -1,0 +1,346 @@
+@media (max-width: 768px) {
+    .body {
+        width: 100%;
+    }
+
+
+    input[type="checkbox"] {
+        display: none;
+    }
+
+    label {
+        position: absolute;
+        left: 16px;
+        top: 20px;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-image: url('Component_8.svg');
+        /* Замените 'path/to/image.png' на путь к вашему изображению */
+        background-size: cover;
+    }
+
+    .burger {
+        position: absolute;
+        display: block;
+    }
+
+    @font-face {
+        font-family: 'Montserrat_Bold';
+        src: url('Montserrat-Bold.woff2') format('woff2');
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Montserrat_Regular';
+        src: url(Montserrat-Regular.woff2) format('woff2');
+    }
+
+    @font-face {
+        font-family: 'Montserrat_Medium';
+        src: url(Montserrat-Medium.woff2) format('woff2');
+    }
+
+    @font-face {
+        font-family: 'Montserrat_Semibold';
+        src: url(Montserrat-SemiBold.woff2) format('woff2');
+    }
+
+    /* Стили для мобильных устройств */
+    .body {
+        width: 100%;
+    }
+
+    .logo {
+        position: absolute;
+        width: 100%;
+        height: 55px;
+        left: 0px;
+        top: 0px;
+        background: #AB0000;
+    }
+
+    .production {
+        display: none;
+        font-family: 'Montserrat_Bold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 29px;
+        display: none;
+        color: #FFFFFF;
+        text-decoration: none;
+        width: 87px;
+        height: 19px;
+    }
+
+    .items {
+        display: none;
+        font-family: 'Montserrat_Bold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 29px;
+        display: none;
+        color: #FFFFFF;
+        text-decoration: none;
+        width: 94px;
+        height: 19px;
+    }
+
+    .about {
+        display: none;
+        font-family: 'Montserrat_Bold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 29px;
+        display: none;
+        color: #FFFFFF;
+        text-decoration: none;
+        width: 61px;
+        height: 20px;
+    }
+
+    #clicker_start {
+        position: absolute;
+        top: 5px;
+        left: 43px;
+        width: 8px;
+        height: 16px;
+        color: #FFF;
+        font-size: 14px;
+        font-family: 'Montserrat_Bold';
+        text-align: center;
+    }
+
+    .photo {
+        position: absolute;
+        width: 100%;
+        height: 245px;
+        top: 55px;
+        background-repeat: no-repeat;
+        background-image: url("logos_1.svg");
+        left: 0px;
+        background-size: cover;
+    }
+
+    .naming {
+        position: absolute;
+        top: 40px;
+        left: 21px;
+        width: 318px;
+        height: 41px;
+        color: #FFF;
+        font-family: "Montserrat_Medium";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-decoration: none;
+    }
+
+    .button {
+        position: absolute;
+        top: 136px;
+        left: 21px;
+        width: 107px;
+        height: 45px;
+        border-radius: 36px;
+        background: #AB0000;
+    }
+
+    .button_text {
+        width: 88px;
+        height: 23px;
+        flex-shrink: 0;
+        position: absolute;
+        top: 11px;
+        left: 10px;
+        color: #FFF;
+        font-family: "Montserrat_Bold";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: none;
+    }
+
+    .production_block {
+        position: absolute;
+        left: 0px;
+        top: 300px;
+        width: 360px;
+        height: 653px;
+        background: #D9D9D9;
+    }
+
+    .production_word {
+        position: absolute;
+        width: 113px;
+        height: 16px;
+        top: 15px;
+        left: 123px;
+        color: #646464;
+        font-family: "Montserrat_Bold";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: none;
+    }
+
+    .help {
+        position: absolute;
+        top: 953px;
+    }
+
+    .line_0 {
+        position: absolute;
+        left: 4px;
+        top: 23px;
+        width: 112px;
+        height: 0px;
+        stroke-width: 2px;
+        stroke: #A1A1A1;
+    }
+
+    .line_1 {
+        position: absolute;
+        left: 244px;
+        top: 23px;
+        width: 112px;
+        height: 0px;
+        stroke-width: 2px;
+        stroke: #A1A1A1;
+    }
+
+    .creator_word {
+        position: absolute;
+        top: 1137px;
+    }
+
+    .k0_button {
+        position: absolute;
+        top: 268px;
+        left: 97px;
+        width: 165px;
+        height: 63px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        background: linear-gradient(180deg, #AB0000 0%, #F00 100%);
+        color: #FFF;
+        font-family: 'Montserrat_Bold';
+        text-decoration: none;
+        border: none;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+    }
+
+    .k1_button {
+        position: absolute;
+        top: 571px;
+        left: 97px;
+        width: 165px;
+        height: 63px;
+        width: 165px;
+        height: 63px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        background: linear-gradient(180deg, #AB0000 0%, #F00 100%);
+        color: #FFF;
+        font-family: 'Montserrat_Bold';
+        text-decoration: none;
+        border: none;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+    }
+
+    .k1_button:hover,
+    .k0_button:hover {
+        color: #A1A1A1;
+    }
+
+    .romanza {
+        position: absolute;
+        top: 227px;
+        left: 133px;
+        width: 94px;
+        height: 27px;
+        color: #000;
+        font-family: "Montserrat_Bold";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .topgun {
+        position: absolute;
+        top: 521px;
+        left: 123px;
+        width: 113px;
+        height: 27px;
+        color: #000;
+        font-family: "Montserrat_Bold";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    .photo1 {
+        position: absolute;
+        left: 80px;
+        top: 54px;
+        width: 200px;
+        height: 165px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: url(top_gun\ 1.svg), lightgray 50% / cover no-repeat;
+    }
+
+    .Romanza_cartoon {
+        top: 54px;
+        left: 80px;
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #FFF;
+        box-shadow: 0px 11px 15px 0px rgba(0, 0, 0, 0.10), 0px 9px 46px 0px rgba(0, 0, 0, 0.08), 0px 24px 38px 0px rgba(0, 0, 0, 0.10);
+    }
+
+    .photo2 {
+        position: absolute;
+        top: 351px;
+        left: 80px;
+        width: 200px;
+        height: 165px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: url(rmnz\ 1.svg), lightgray 50% / cover no-repeat;
+
+    }
+
+    .top_Gun_Cartoon {
+        position: absolute;
+        top: 351px;
+        left: 80px;
+        width: 200px;
+        height: 200px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #FFF;
+        box-shadow: 0px 11px 15px 0px rgba(0, 0, 0, 0.10), 0px 9px 46px 0px rgba(0, 0, 0, 0.08), 0px 24px 38px 0px rgba(0, 0, 0, 0.10);
+    }
+}
