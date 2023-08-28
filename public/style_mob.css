@@ -1,6 +1,7 @@
 @media (max-width: 768px) {
     .body {
         width: 100%;
+        height: 1145px;
     }
 
 
@@ -16,14 +17,28 @@
         width: 20px;
         height: 20px;
         background-image: url('Component_8.svg');
-        /* Замените 'path/to/image.png' на путь к вашему изображению */
         background-size: cover;
+        z-index:2;
     }
 
     .burger {
         position: absolute;
         display: block;
+        z-index: 2;
     }
+
+    .burger_menu {
+        position: absolute;
+        width: 231px;
+        height: 366px;
+        border-radius: 20px;
+        background: #AB0000;
+        left:0px;
+        top:0px;
+        z-index:2;
+    }
+
+
 
     @font-face {
         font-family: 'Montserrat_Bold';
@@ -62,13 +77,14 @@
     }
 
     .production {
-        display: none;
+        position: absolute;
+        top:56px;
+        left:16px;
         font-family: 'Montserrat_Bold';
         font-style: normal;
         font-weight: 700;
         font-size: 20px;
         line-height: 29px;
-        display: none;
         color: #FFFFFF;
         text-decoration: none;
         width: 87px;
@@ -76,13 +92,14 @@
     }
 
     .items {
-        display: none;
+        position: absolute;
+        top:101px;
+        left:16px;
         font-family: 'Montserrat_Bold';
         font-style: normal;
         font-weight: 700;
         font-size: 20px;
         line-height: 29px;
-        display: none;
         color: #FFFFFF;
         text-decoration: none;
         width: 94px;
@@ -90,13 +107,14 @@
     }
 
     .about {
-        display: none;
+        position:absolute;
+        top:137px;
+        left:
         font-family: 'Montserrat_Bold';
         font-style: normal;
         font-weight: 700;
         font-size: 20px;
         line-height: 29px;
-        display: none;
         color: #FFFFFF;
         text-decoration: none;
         width: 61px;
@@ -171,9 +189,9 @@
         position: absolute;
         left: 0px;
         top: 300px;
-        width: 360px;
+        width: 100%;
         height: 653px;
-        background: #D9D9D9;
+        background: #FFF;
     }
 
     .production_word {
@@ -342,5 +360,124 @@
         border-radius: 20px;
         background: #FFF;
         box-shadow: 0px 11px 15px 0px rgba(0, 0, 0, 0.10), 0px 9px 46px 0px rgba(0, 0, 0, 0.08), 0px 24px 38px 0px rgba(0, 0, 0, 0.10);
+    }
+
+    .help {
+        position: absolute;
+        width: 100%;
+        height: 128px;
+        background: #D9D9D9;
+        top: 953px;
+        left: 0px;
+    }
+
+    .form_about {
+        position: absolute;
+        width: 149px;
+        height: 23px;
+        top: 28px;
+        left: 15px;
+        color: #000;
+        font-family: "Montserrat_Semibold";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .input_form {
+        position: absolute;
+        width: 118px;
+        height: 33px;
+        top: 51px;
+        left: 15px;
+        color: #000;
+        font-family: "Montserrat_Regular";
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .phone {
+        position: absolute;
+        position: absolute;
+        width: 78px;
+        height: 15px;
+        top: 27px;
+        left: 224px;
+        color: #595757;
+        font-family: "Montserrat_Semibold";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .number {
+        position: absolute;
+        width: 79px;
+        height: 10px;
+        top: 51px;
+        left: 162px;
+        color: #202020;
+        font-family: 'Montserrat_Semibold';
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .time_work {
+        position: absolute;
+        top: 51px;
+        left: 246px;
+        width: 109px;
+        height: 10px;
+        color: #595757;
+        font-family: "Montserrat_Semibold";
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .line_2 {
+        position: absolute;
+        top: 1182px;
+        left: 0px;
+        width: 360px;
+        height: 0px;
+        stroke-width: 2px;
+        stroke: #A1A1A1;
+    }
+
+    .word_0 {
+        position: absolute;
+        width: 101px;
+        height: 36px;
+        top: 1137px;
+        left: 15px;
+        color: #595757;
+        font-family: "Montserrat_Semibold";
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .creator_word {
+        position: absolute;
+        width: 163px;
+        height: 10px;
+        top: 1137px;
+        left: 192px;
+        color: #595757;
+        font-family: "Montserrat_Semibold";
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-align: left;
     }
 }
